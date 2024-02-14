@@ -10,7 +10,7 @@
 
     <!--NoCrawl-->
     <meta name="robots" content="noindex">
-    
+
 
     <link rel="stylesheet" href="style.css">
 
@@ -24,26 +24,34 @@
 
 <body>
 
+    <!--Nav-->
+    <div class="nav-container">
+        <div class="nav" id="navBtn" onclick="window.location.href='nav.html';">
+            ☰
+        </div>
+    </div>
+
     <div class="sec-box">
         <div class="tag">Contact</div>
         <div class="divide-line"></div>
         <p>This contact form is just for looks and dosent work.</p>
 
+
         <div class="contact-title">Name<span style="color: red;">*</span></div>
-        <input type="text" id="fname" name="firstname" placeholder="Your name.." required="true">
+        <input type="text" name="firstname" placeholder="Your name.." required="required">
 
         <div class="contact-title">Email<span style="color: red;">*</span></div>
-        <input type="text" id="fname" name="firstname" placeholder="Your email.." required="true">
+        <input type="text"  name="firstname" placeholder="Your email.." required="required">
 
         <div class="contact-title">Message<span style="color: red;">*</span></div>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"
-            required="true"></textarea>
+        <textarea  name="subject" placeholder="Write something.." style="height:200px"
+        required="required"></textarea>
 
 
         <button class="submit-btn">Submit</button>
     </div>
     <footer>This is for educational purposes | Made by
-        <span class="footer__box" onclick="window.location.href = 'https://cutt.ly/XwCdZNCh';">
+        <span class="footer__box" onclick="window.location.href = 'https://prestonmcintire.com';">
             <span style="color:#007AC1;">Preston Mcintire</span>
             <img src="https://www.prestonmcintire.com/assets/imgs/me.webp" draggable="false" class="footer__box-img"
                 alt="Preston Mcintire">

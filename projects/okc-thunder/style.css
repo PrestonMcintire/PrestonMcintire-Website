@@ -260,6 +260,24 @@ p {
 }
 
 
+/*Navigation*/
+button{
+    font-family: 'Urbanist', normal;
+    color: var(--white);
+    background-color: var(--primary-blue);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto 20px;
+}
+
+.btn-row{
+    margin: 10px;
+}
+
 /*Contact*/
 .contact-title {
     color: var(--white);
