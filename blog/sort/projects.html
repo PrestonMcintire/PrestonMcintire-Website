@@ -4,11 +4,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects | Preston Mcintire</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
 </head>
 
 <body>
-    projects
+    <div class="blog__sec" id="blog-sec">
+        <div class="blog__title">Projects</div>
+        <div class="blog__content">
+            <div class="blog__left">
+                <div class="quicklinks__box">
+                    <div class="sort__title">Sort By</div>
+                    <div class="btn__sort">
+                        <span class="btn__clients"
+                            onclick="window.location.href = 'clients.html';">Clients</span>
+                        <span class="btn__projects" onclick="window.location.href = '#';">Projects</span>
+                        <span class="btn__coding" onclick="window.location.href = 'coding.html';">Coding</span>
+                        <span class="btn__reviews" onclick="window.location.href = 'reviews.html';">Reviews</span>
+                        <span class="btn__other" onclick="window.location.href = 'other.html';">Other</span>
+                    </div>
+                </div>
+            </div>
+            <div class="blog__right">
+                <div class="blogcard__list">
+
+                    <!--Personal Website-->
+                    <div class="blogcard__box" onclick="window.location.href = '/projects/okc-thunder';">
+                        <img src="/assets/blogs/okc-thuder-website/thumb.webp" class="blogcard__thumb"
+                            style="pointer-events: none; user-select: none;">
+                        <div class="blogcard__title">OKC Thunder Website Project</div>
+                        <div class="blogcard__tags">
+                            <span class="tag__date">Feb 15</span> <span class="tag__category">Projects</span>
+                        </div>
+                        <div class="blogcard__desc">
+                            I attempted to make my own version of the OKC Thunder website.
+                        </div>
+                    </div>
+
+                    <!--SunBands-->
+                    <div class="blogcard__box" onclick="window.location.href = '/blog/sunbands.html';">
+                        <img src="/assets/blogs/sunbands-project/thumb.webp" class="blogcard__thumb"
+                            style="pointer-events: none; user-select: none;">
+                        <div class="blogcard__title">SunBands Project</div>
+                        <div class="blogcard__tags">
+                            <span class="tag__date">Jan 14</span> <span class="tag__category">Projects</span>
+                        </div>
+                        <div class="blogcard__desc">
+                            This was for a school project in which I had to make a mockup of a fake sunglasses brand.
+                        </div>
+                    </div>
+
+                    <!--Proton-->
+                    <div class="blogcard__box" onclick="window.location.href = 'wip.html';">
+                        
+                    </div>
+
+
+                    <!--Website Copyright-->
+                    <div class="blogcard__box" onclick="window.location.href = 'wip.html';">
+                        
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
