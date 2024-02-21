@@ -15,6 +15,24 @@
   src: url("/assets/fonts/pt-mono-v13-latin-regular.woff2") format("woff2");
 }
 
+/* urbanist-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/fonts/urbanist-v15-latin-700italic.woff2') format('woff2');
+}
+
+/* urbanist-700italic - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Urbanist';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/assets/fonts/urbanist-v15-latin/urbanist-v15-latin-regular.woff2') format('woff2');
+}
+
 /* Hyperlink */
 a {
   color: #318fc9;
