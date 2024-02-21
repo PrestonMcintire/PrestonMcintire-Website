@@ -1,0 +1,11 @@
+[] - Add Custom fonts
+[] - Clean up homepage
+[] - Fix scaling
+[] - Add spacing
+[] - Simify code
+[] - Fix nav bar links
+[] - Add comments
+[] - Obuscate images
+[] - Clean up blogs and create a template
+----------------------
+[] - Publish website

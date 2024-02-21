@@ -1,0 +1,71 @@
+/*Hyperlinks Styling*/
+:link {
+    color: #3772ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7B37FF;
+}
+
+:visited {
+    color: #3772ff;
+    text-decoration: none;
+}
+
+
+@font-face {
+    font-family: "rubik_regular";
+    src: url("/Assets/fonts/rubik/rubik-regular-webfont.woff2") format("woff2"),
+    url("/Assets/fonts/rubik/rubik-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Navbar*/
+.navbar {
+    margin-top: 2%;
+    text-align: center;
+    font-family: rubik_regular;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.navline {
+    height: 2px;
+    width: 330px;
+    background-color: rgb(225, 224, 224);
+    margin: auto;
+}
+
+/*Dark Mode*/
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #191f24;
+        color: #E1E8F5;
+    }
+}
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #D8DEE9;
+        color: #000000;
+    }
+}
+
+
+/*Footer*/
+footer {
+    font-family: monospace;
+    font-size: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+body{
+    overflow-x:hidden
+}

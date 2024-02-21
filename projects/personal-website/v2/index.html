@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tab Info -->
+    <title>Preston Mcintire</title>
+    <link rel="icon" href="Assets/images/me.jpeg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/page.css">
+    <style>
+        /* About Sec */
+
+        /* Container for whole about sec */
+        .about-container {
+            width: 43.75rem;
+            height: 12.5rem;
+            margin: auto;
+            margin-top: 3rem;
+        }
+
+        /* PFP */
+        .profile-picture {
+            border-radius: 50%;
+            width: 15rem;
+            float: left;
+            margin-right: 15px;
+            border: 5px solid var(--color-red);
+        }
+
+        /* About Box */
+        .highlight-box {
+            width: 700px;
+            height: 160px;
+            padding: 2%;
+            background-color: #353c4b;
+            border-radius: var(--blocksec-radius);
+            padding-right: 4.375rem;
+        }
+
+        /* Toggle Dark Mode for container */
+        @media (prefers-color-scheme: dark) {
+            .highlight-box {
+                background-color: var(--blocksec-dark);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .highlight-box {
+                background-color: var(--blocksec-light);
+            }
+        }
+
+        /* Text container */
+        .right-container {
+            width: 43.75rem;
+            height: 12.5rem;
+            margin-left: 3.125rem;
+        }
+
+        /* Accessibility */
+        @media screen and (max-width: 1024px) {
+            .navigation-container {
+                margin-top: 9.375rem;
+                padding-left: 31.25rem;
+            }
+        }
+
+
+        .socials-box {
+            margin: auto;
+            margin-top: 300px;
+            width: 700px;
+            height: 160px;
+            padding: 2%;
+            background-color: var(--blocksec-dark);
+            border-radius: var(--blocksec-radius);
+            padding-right: 4.375rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <div class="navbar">
+        <a href="index.html" class="button_link">Home</a>
+        <a href="contact.html" class="button">Contact</a>
+        <a href="blog.html" class="button2">Blog</a>
+    </div>
+
+
+    <!-- About -->
+    <div class="about-container">
+        <!-- PFP -->
+        <img class="profile-picture" src="Assets/images/me.jpeg" alt="Preston Mcintire Profile Picture">
+        <!-- Name Tag -->
+        <h1>Preston McIntire</h1>
+        <!-- Title -->
+        <h3 style=" color: var(--color-green); font-weight: bold;">About me</h3>
+        <!-- About Box -->
+        <div class="highlight-box">
+            <div class="right-container">
+                <!-- About Box Content -->
+                <p>Hi, Im <span style="color: var(--color-red); font-weight: bold;">Preston.</span> I am a programmer
+                    and a web developer. I have been
+                    programming for about 3 years. I started originally in 2020 with the programming language <a
+                        href="https://scratch.mit.edu/" target="_blank" rel="noopener noreferrer"
+                        style="color: var(--color-orange); text-decoration: none; font-weight: bold;">Scratch</a>, and I
+                    have since
+                    moved on from Scratch to other programming languages. Now I use JavaScript, HTML, CSS, and some
+                    Python. This website is my home base for information about me, my projects, and other cool stuff I
+                    find interesting.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="socials-box">
+        <h1 style="text-align: center;">Socials</h1>
+        <h3><a href="https://github.com/PrestonMcintire" target="_blank" rel="noopener noreferrer"" style="
+                text-decoration: none; font-weight: bold; color: var(--color-green);">Github</a></h3>
+        <h3><a href="https://www.youtube.com/watch?v=Z3J_MCbwaJ0" target="_blank" rel="noopener noreferrer"
+                style="text-decoration: none; font-weight: bold; color: var(--color-red);">Youtube</a></h3>
+        <h3><a href="#" target="_blank" rel="noopener noreferrer"
+                style="text-decoration: none; font-weight: bold; color: var(--color-purple);">Mastodon</a></h3>
+    </div>
+
+    <!-- Footer -->
+    <footer style="font-weight: bold;"><span style="color: var(--color-red);">♥︎</span> Preston McIntire</footer>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+/* - Pallete - */
+.redtext {
+    color: #BF616A;
+}
+.orangetext {
+    color: #D08770;
+}
+.greentext {
+    color: #A3BE8C;
+}
+.purpletext {
+    color: #B48EAD;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #3B4252;
+        color: #e6eaf8;
+    }
+}
+
+/* Light Mode :( */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #E5E9F0;
+        color: #2E3440;
+    }
+}
+
+/* - Fonts - */
+
+/* Armin Grotesk - Light */
+@font-face {
+    font-family: "text_normal";
+    src: url("../Assets/fonts/Armin_Grotesk/normal.woff") format("woff2"),
+    url("../Assets/fonts/Armin_Grotesk/normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: "text_thin";
+    src: url("../Assets/fonts/Armin_Grotesk/thin.woff") format("woff2"),
+    url("../Assets/fonts/Armin_Grotesk/thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "text_ultralight";
+    src: url("Assets/fonts/Armin_Grotesk/ultralight.woff") format("woff2"),
+    url("../Assets/fonts/Armin_Grotesk/ultralight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "text_regular";
+    src: url("../Assets/fonts/Armin_Grotesk/regular.woff") format("woff2"),
+    url("../Assets/fonts/Armin_Grotesk/regular.woff") format("woff");
+}
+
+/* Arim Grotesk - Heavy */
+@font-face {
+    font-family: "text_ultrabold";
+    src: url("../Assets/fonts/Armin_Grotesk/ultrabold.woff") format("woff2"),
+    url("../Assets/fonts/Armin_Grotesk/ultrabold.woff") format("woff");
+}
+
+h1 {
+    font-family: text_ultrabold;
+}
+h2 {
+    font-family: text_normal;
+}
+h3 {
+    font-family: text_thin;
+}
+p {
+    font-family: text_ultralight;
+}
+
+.head {
+    font-family: text_ultrabold;
+    font-size: 5rem;
+}
+
+.nordref {
+    font-family: text_ultrabold;
+}
+
+footer {
+    font-family: text_normal;
+}
+
+/* Font Styles */
+.bold {
+    font-family: text_ultrabold;
+}
+
+/* Buttons */
+.button_link {
+    background-color: #BF616A;
+    color: #2E3440;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.button {
+    background-color: #A3BE8C;
+    color: #2E3440;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.text_btn {
+    color: #e6eaf8;
+    padding: 6px 6px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+

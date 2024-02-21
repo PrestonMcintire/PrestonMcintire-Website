@@ -1,0 +1,22 @@
+
+# I don't allow AI web crawlers to crawl my website. I don't mind people using the code and information from this website, but I don't want big tech companies doing so and using up resources for legitimate web crawlers and visitors.
+User-agent: EtaoSpider
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /

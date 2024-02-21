@@ -1,0 +1,180 @@
+/* clean up default css */
+
+
+/* Color Pallete */
+:root {
+    /* Main Text Colors */
+    --color-light: #e6eaf8;
+    --color-dark: #2E3440;
+
+    /* Background Colors */
+    --mode-dark: #3B4252;
+    --mode-light: #E5E9F0;
+
+    /* Block Section Colors */
+    --blocksec-light: #D8DEE9;
+    --blocksec-dark: #353c4b;
+
+    /* Colors */
+    --color-red: #BF616A;
+    --color-orange: #D08770;
+    --color-green: #A3BE8C;
+    --color-purple: #B48EAD;
+
+}
+
+/* Sizes */
+:root{
+    /* Buttons, Small Block Sections etc.. */
+    --border-radius: 5px;
+
+    /* Block Sections */
+    --blocksec-radius: 1.125rem;
+}
+
+
+
+/* Nav bar */
+.navbar {
+    margin-top: 2%;
+    text-align: center;
+    font-family: rubik_regular;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: var(--mode-dark) ;
+        color: var(--color-light);
+    }
+}
+
+/* Light Mode :( */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: var(--mode-light);
+        color: var(--color-dark);
+    }
+}
+
+/* - Fonts - */
+
+/* Armin Grotesk - Light */
+@font-face {
+    font-family: "text_normal";
+    src: url("../Assets/fonts/Armin_Grotesk/normal.woff") format("woff2"),
+        url("../Assets/fonts/Armin_Grotesk/normal.woff") format("woff");
+}
+
+@font-face {
+    font-family: "text_thin";
+    src: url("../Assets/fonts/Armin_Grotesk/thin.woff") format("woff2"),
+        url("../Assets/fonts/Armin_Grotesk/thin.woff") format("woff");
+}
+
+@font-face {
+    font-family: "text_ultralight";
+    src: url("Assets/fonts/Armin_Grotesk/ultralight.woff") format("woff2"),
+        url("../Assets/fonts/Armin_Grotesk/ultralight.woff") format("woff");
+}
+
+@font-face {
+    font-family: "text_regular";
+    src: url("../Assets/fonts/Armin_Grotesk/regular.woff") format("woff2"),
+        url("../Assets/fonts/Armin_Grotesk/regular.woff") format("woff");
+}
+
+/* Arim Grotesk - Heavy */
+@font-face {
+    font-family: "text_ultrabold";
+    src: url("../Assets/fonts/Armin_Grotesk/ultrabold.woff") format("woff2"),
+        url("../Assets/fonts/Armin_Grotesk/ultrabold.woff") format("woff");
+}
+
+
+h1 {
+    font-family: text_ultrabold;
+}
+
+h2 {
+    font-family: text_normal;
+}
+
+h3 {
+    font-family: text_thin;
+}
+
+p {
+    font-family: text_ultralight;
+}
+
+.head {
+    font-family: text_ultrabold;
+    font-size: 5rem;
+}
+
+.nordref {
+    font-family: text_ultrabold;
+}
+
+footer {
+    font-family: text_normal;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Font Styles */
+.bold {
+    font-family: text_ultrabold;
+}
+
+/* Buttons */
+.button_link {
+    background-color: #BF616A;
+    color: #2E3440;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.button {
+    background-color: #A3BE8C;
+    color: #2E3440;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #B48EAD;
+    color: #2E3440;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
+
+.text_btn {
+    color: #e6eaf8;
+    padding: 6px 6px;
+    text-decoration: none;
+    font-family: text_normal;
+    display: inline-block;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+}
